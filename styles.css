@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    font-family: 'Inter', sans-serif; 
+    color: hsl(240, 38%, 20%);  
+    display: grid;
+    max-width: 100%;
+    
+}
+
+.main-header {
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.scoot{
+    font-weight: 800;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.navlink {
+    display: flex;
+    text-align: center;
+    padding: 0px 30px;
+    font-size: 12px;
+    float: left;
+    color: rgb(29, 26, 26);
+    text-decoration: none;
+    }
+
+.getin {
+    border: none;
+    float: right;
+    margin-right: 50px;
+    padding: 10px 15px;
+    background-color: rgb(255, 208, 0);
+   
+}
+.in {
+    margin-right: 350px;
+    
+}
+
+.container {
+    max-width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    background-image: url(./images/scooter1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7; 
+}
+.scooter-sharing {
+    color: white;
+    margin-left: 50px;
+    margin-top: 100px;
+    padding-bottom: 220px;
+}
+.scooter-sharing p {
+    margin-left: 5px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.small-line {
+    width: 150px;
+    height: 4px;
+    background-color: rgb(255, 208, 0);
+    position: relative;
+    top: 200px;
+
+    
+}
+.arrow-right {
+    width: 300px;
+    height: 4px;
+    background-color: rgb(255, 208, 0);
+    position: relative;
+    top: 200px;
+    margin-left: 50px;
+}
+
+.arrow-right:after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 4px;
+    background-color: rgb(255, 208, 0);
+    transform: rotate(45deg);
+    position: absolute;
+    right: -6px;
+    bottom: 10px;
+}
+
+.arrow-right:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 4px;
+    background-color: rgb(255, 208, 0);
+    transform: rotate(-45deg);
+    position: absolute;
+    right: -6px;
+    bottom: -10px;
+}
+
+.container-1 {
+    
+    position: relative;
+    padding: 10px;
+    display: flex;
+}
+
+.circle {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 208, 0);
+}
+.container-1 h3 {
+    padding-top: 30px;
+}
+
+.container-1 p {
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+.easy {
+    padding: 50px;
+    display: flex;
+}
+.woman {
+    padding-left: 0px;
+}
+.woman >img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;  
+}
+
+.easy h2 {
+    padding-bottom: 10px;  
+}
+
+.easy p {
+    padding-top: 10px;
+    padding-right:300px;
+}
+.near {
+    padding: 50px;
+    display: flex;
+}
+
+
+.man >img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;  
+}
+
+.near h2 {
+    
+    padding-bottom: 10px;
+    
+}
+
+.near p {
+    padding-top: 10px;
+    padding-right:30px;
+}
+.stil-right{
+    width: 300px;
+    height: 4px;
+    background-color: rgb(255, 208, 0);
+    position: relative;
+    bottom: 200px;
+    
+}
+.stil-right:after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 4px;
+    background-color: rgb(255, 208, 0);
+    transform: rotate(45deg);
+    position: absolute;
+    right: -6px;
+    bottom: 10px;
+}
+
+.stil-right:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 4px;
+    background-color: rgb(255, 208, 0);
+    transform: rotate(-45deg);
+    position: absolute;
+    right: -6px;
+    bottom: -10px;
+}
+.still-left {
+    width: 300px;
+    height: 4px;
+    background-color: rgb(255, 208, 0);
+    position: relative;
+    bottom: 200px;
+}
+.still-left:after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 4px;
+    background-color: rgb(255, 208, 0);
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 275px;
+    bottom: 10px;
+}
+.still-left:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 4px;
+    background-color: rgb(255, 208, 0);
+    transform: rotate(45deg);
+    position: absolute;
+    right: 275px;
+    bottom: -10px;
+}
+.left {
+    bottom: 50px;
+}
+.easy-use {
+   margin-left: 35%;
+  
+    
+}
+.if {
+    margin-top:30px;
+   float: left; 
+}
+footer {
+    color: white;
+    background-color: rgb(32, 32, 75);
+    padding: 10px 50px;
+    margin: 0;
+    bottom: 0px; 
+}
+.sign-up {
+    display: flex;
+}
+.download {
+   margin-left: 70%;
+}
+.nav{
+    display: flex;
+    text-align: center;
+    padding: 0px 30px;
+    font-size: 12px;
+    float: left;
+    color: white;
+    text-decoration: none;
+    }
+.see {
+    padding: 0px 5px;
+}
+.app {
+    font-size: 18px;
+}
